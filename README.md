@@ -7,4 +7,5 @@ Implement in C the Cucumber cases and pseudocode in the [The Ray Tracer Challeng
 - [x] Clone Unity C unit test framework
 - [x] Get a project directory set up for Test Driven Development - peculiar to unity???
 - [x] Make a rudimentary first test
+- [ ] Complete Tuple struct and accompanying create functions, etc
 - [ ] Learn how to use make. Cmake? Which is better?
