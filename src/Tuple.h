@@ -1,4 +1,7 @@
 #include <stdint.h>
 
-int tuple(int in);
+struct Tuple {
+	int point;
+};
 
+int is_point(struct Tuple tup); 

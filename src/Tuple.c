@@ -1,5 +1,5 @@
 #include "Tuple.h"
 
-int tuple(int in) {
-	return 0;
+int is_point(struct Tuple tup) {
+	return 1;
 }
