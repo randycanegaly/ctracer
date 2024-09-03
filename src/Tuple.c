@@ -1,5 +1,9 @@
 #include "Tuple.h"
 
-int is_point(struct Tuple tup) {
-	return 1;
+float is_point(struct Tuple tup) {
+	return tup.point;
+}
+
+float x_coord(struct Tuple tup) {
+	return tup.x;
 }
