@@ -9,3 +9,5 @@ struct Tuple {
 
 float is_point(struct Tuple tup); 
 float x_coord(struct Tuple tup);
+float y_coord(struct Tuple tup);
+float z_coord(struct Tuple tup);
