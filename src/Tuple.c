@@ -1,17 +1,15 @@
 #include "Tuple.h"
 
-float is_point(struct Tuple tup) {
-	return tup.point;
+Tuple Point(Tuple *p, int x, int y, int z) {
+	p->x = x;
+	p->y = y;
+	p->z = z;
+	p->w = 1.0;
 }
 
-float x_coord(struct Tuple tup) {
-	return tup.x;
-}
-
-float y_coord(struct Tuple tup) {
-	return tup.y;
-}
-
-float z_coord(struct Tuple tup) {
-	return tup.z;
+Tuple Vector(Tuple *p, int x, int y, int z) {
+	p->x = x;
+	p->y = y;
+	p->z = z;
+	p->w = 0.0;
 }

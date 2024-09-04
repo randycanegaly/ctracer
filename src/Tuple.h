@@ -1,13 +1,11 @@
 #include <stdint.h>
 
-struct Tuple {
+typedef struct {
 	float x;
 	float y;
 	float z;	
-	float point;
-};
+	float w;
+} Tuple;
 
-float is_point(struct Tuple tup); 
-float x_coord(struct Tuple tup);
-float y_coord(struct Tuple tup);
-float z_coord(struct Tuple tup);
+Tuple Point(Tuple *p, int x, int y, int z);
+Tuple Vector(Tuple *p, int x, int y, int z);
